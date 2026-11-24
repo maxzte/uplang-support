@@ -18,4 +18,4 @@ Public issue tracker and privacy policy for the **UpLang** Chrome extension.
 - **Screenshots** or steps to reproduce
 
 ## Privacy Policy
-Read our [Privacy Policy](https://lozovskyi.github.io/uplang-support/privacy-policy.html).
+Read our [Privacy Policy](https://maxzte.github.io/uplang-support/privacy-policy.html).
