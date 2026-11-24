@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Privacy Policy — UpLang: Listening Trainer for YouTube Music™</title>
+    <style>
+      :root {
+        color-scheme: dark;
+      }
+      body {
+        margin: 0;
+        padding: 40px 20px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        background: #131313;
+        color: #e2e2e2;
+        line-height: 1.65;
+      }
+      main {
+        max-width: 720px;
+        margin: 0 auto;
+        background: #1b1b1b;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        border-radius: 16px;
+        padding: 32px;
+      }
+      h1 {
+        margin-top: 0;
+        color: #ffffff;
+        font-size: 26px;
+      }
+      h2 {
+        margin-top: 28px;
+        color: #ffffff;
+        font-size: 18px;
+      }
+      a {
+        color: #60a5fa;
+      }
+      .muted {
+        color: #9ca3af;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Privacy Policy for UpLang</h1>
+      <p class="muted">Last updated: November 24, 2026</p>
+      <p>
+        UpLang ("we", "our", or "the extension") is a Chrome browser extension
+        designed to help users practice foreign language listening comprehension
+        on YouTube Music™.
+      </p>
+
+      <h2>1. Information We Do Not Collect</h2>
+      <ul>
+        <li>We do not collect names, email addresses, IP addresses, or payment details.</li>
+        <li>We do not track your browsing history or monitor activity outside of <code>music.youtube.com</code>.</li>
+        <li>We do not use third-party analytics or behavioral tracking scripts.</li>
+        <li>We do not sell or monetize user data in any manner.</li>
+      </ul>
+
+      <h2>2. Storage &amp; Data Persistence</h2>
+      <p>
+        <strong>Local Data (<code>chrome.storage.local</code>):</strong> Your SRS
+        flashcards, SM-2 review progress, custom lyrics timing offsets, learning
+        streak, and practice statistics are stored locally on your device.
+      </p>
+      <p>
+        <strong>Synchronized Preferences (<code>chrome.storage.sync</code>):</strong>
+        If Chrome Sync is enabled, your extension settings (such as study mode,
+        challenge frequency, font size, and translation language) are synced via
+        your Google account using Chrome Storage Sync APIs. No personal
+        identifiers or listening histories are stored in sync storage.
+      </p>
+
+      <h2>3. Network Requests and Third-Party Services</h2>
+      <ul>
+        <li>
+          <strong>YouTube / YouTube Music (<code>music.youtube.com</code>, <code>www.youtube.com</code>, <code>*.googlevideo.com</code>):</strong>
+          Retrieves player track metadata and official timedtext captions/subtitles.
+        </li>
+        <li>
+          <strong>LRCLIB (<code>lrclib.net</code>):</strong> Queries open-source
+          synchronized song lyrics using track artist, title, and duration.
+        </li>
+        <li>
+          <strong>Free Dictionary APIs (<code>freedictionaryapi.com</code>, <code>api.dictionaryapi.dev</code>):</strong>
+          Queried only when you click a word to retrieve definitions and phonetics.
+        </li>
+      </ul>
+
+      <h2>4. Microphone &amp; Voice Recognition</h2>
+      <p>
+        Voice input is optional and activated only when you explicitly click the
+        microphone button. Speech is processed via your browser's Web Speech API;
+        UpLang does not record or transmit raw audio to any UpLang server.
+      </p>
+
+      <h2>5. On-Device AI</h2>
+      <p>
+        Contextual word explanations and line translations use Chrome's built-in
+        on-device AI (<code>LanguageModel</code> and <code>Translator</code> APIs).
+        All AI inference runs locally on your device.
+      </p>
+
+      <h2>6. Contact</h2>
+      <p>
+        Questions or feedback? Open an issue at
+        <a href="https://github.com/lozovskyi/upeng/issues">github.com/lozovskyi/upeng/issues</a>.
+      </p>
+    </main>
+  </body>
+</html>
