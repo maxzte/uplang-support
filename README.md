@@ -4,7 +4,7 @@ Public issue tracker and privacy policy for the **UpLang** Chrome extension.
 
 ## How to Report a Bug or Request a Feature
 
-1. Open the **[Issues](https://github.com/lozovskyi/uplang-support/issues)** tab.
+1. Open the **[Issues](https://github.com/maxzte/uplang-support/issues)** tab.
 2. Search existing issues to see if your problem or idea has already been reported.
 3. Click **New issue** and choose a template:
    - **Bug report** — something isn't working as expected on YouTube Music™.
